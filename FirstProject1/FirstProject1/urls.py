@@ -25,7 +25,9 @@ from MyApps1 import views as v22;
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-   
+   path('display/',views.display),
+
+
 
     #multiple views
     path('mrng/', v1.f1),
