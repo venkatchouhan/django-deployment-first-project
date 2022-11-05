@@ -1,9 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import HttpResponse
 # Create your views here.
-def display(request):
-    return HttpResponse('<center><h1> hello user welcome to the django first project</h1><hr/>')
-
 
 def f1(request):
     return HttpResponse("<center><h1 style ='color:red';> Good morning user have a nice day ...!!!!</h1><hr/>");
