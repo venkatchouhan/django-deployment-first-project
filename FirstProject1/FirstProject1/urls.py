@@ -37,6 +37,4 @@ urlpatterns = [
 
     path('hello1/', v11.f11),
     path('datetime1/', v22.f22),
-
-
 ]
